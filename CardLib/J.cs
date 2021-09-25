@@ -17,7 +17,8 @@ namespace CardLib
 
         //public const string Face = "J";
 
-        public override CardSuit Suit { get => _suit; }
+        // public override CardSuit Suit { get => _suit; }
+        public override CardSuit Suit => _suit;
 
         public override int Value => 11;
 
